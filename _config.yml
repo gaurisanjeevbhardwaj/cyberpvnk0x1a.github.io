@@ -1,0 +1,27 @@
+title: "cyberpvnk"
+tagline: "cyberpvnk"
+email: "cyberpvnk0x1A@protonmail.com"
+description: "cyberpvnk0x1a"
+github_username: cyberpvnk0x1A
+baseurl: ''
+url: "https://cyberpvnk0x1a.github.io"
+
+plugins:
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+remote_theme: tareqdandachi/jekyll-shell-theme
+sass:
+  style: compressed
+
+highlighter: rouge
+
+header_pages:
+  - index.md
+  - read-me.md
+  - preview.md
+  - contact-me.md
+  
+# set the size of the text to 'large' or 'small', default is small
+font-size: small
