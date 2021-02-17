@@ -35,8 +35,8 @@ Offset(V)          Name                    PID   PPID (...)
 0xffffe00d9340f080 cmd.exe                7420   2448 (...)
 0xffffe00d930d0080 conhost.exe            8024   7420 (...)
 ```
-Now keeping the challenge name and hint in mind, `mstct.exe` and `MicrosoftEdgeC` attrack attention. After a bit of googling, turns out mstsc.exe is in fact an RDP client,
-and we can ignore the browser.
+Now keeping the challenge name and hint in mind, `mstct.exe` and `MicrosoftEdgeC` attract attention. After a bit of googling, turns out mstsc.exe is in fact an RDP client, hence we can ignore the browser.
+
 Dumping the memory for `mstsc.exe`:
 ```bash
 ./vol.py -f ~/Downloads/pub/challenge.vmem --profile Win10x64_18362 memdump -p 6484 --dump-dir dumpdir
