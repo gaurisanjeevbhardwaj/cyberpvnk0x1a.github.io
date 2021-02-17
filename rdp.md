@@ -2,9 +2,10 @@
 layout: page
 permalink: /rdp
 permalink_name: /rdp
-title: justCTF[*]: rdp
+title: justCTF\[*\]: rdp
+
 ---
-# Remote Password Manager [fore, 347 points, 12 solves]
+# Remote Password Manager \[fore, 347 points, 12 solves\]
 The challenge provides us with a vmem file, and without any other rumination, I use volatility 2.6.1 on it. However, the tool was unable to recognize the image profile for the file.
 After multiple failed attempts at the `imageinfo` command, I decided to clone the fresh repository of Volatility, and thankfully this time it was successful in identifying the image profile.
 
@@ -41,11 +42,11 @@ Dumping the memory for `mstsc.exe`:
 ./vol.py -f ~/Downloads/pub/challenge.vmem --profile Win10x64_18362 memdump -p 6484 --dump-dir dumpdir
 ```
 We rename 6484.dmp to 6484.data, so that GIMP can process it, and opening it as raw data in GIMP.
-<img src="assets/Screenshot from 2021-02-17 11-35-54.png" alt="hi" class="inline"/>
+<img src="assets/remote-password-manager-4.png" alt="hi" class="inline"/>
 Adjusting the offset values, we get the flag:
-<img src="assets/Screenshot from 2021-02-17 11-07-57.png" alt="hi" class="inline"/>
+<img src="assets/remote-password-manager-7.png" alt="hi" class="inline"/>
 
 
-`flag:justCTF{7h3r3_15_n0_5uch_7h1n6_45_unh4ck4b13}`
+**flag:justCTF{7h3r3_15_n0_5uch_7h1n6_45_unh4ck4b13}**
 
 
