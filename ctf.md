@@ -1,6 +1,10 @@
 ---
-title: /ctf
+layout: page
+permalink: /ctf
+permalink_name: /ctf
+title: ctf
 ---
+
 
 # Writeups and experiences
 ### justCTF\[*\]2020
