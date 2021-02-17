@@ -3,8 +3,8 @@ layout: page
 permalink: /rdp
 permalink_name: /rdp
 title: justCTF\[*\]: rdp
-
 ---
+
 # Remote Password Manager \[fore, 347 points, 12 solves\]
 The challenge provides us with a vmem file, and without any other rumination, I use volatility 2.6.1 on it. However, the tool was unable to recognize the image profile for the file.
 After multiple failed attempts at the `imageinfo` command, I decided to clone the fresh repository of Volatility, and thankfully this time it was successful in identifying the image profile.
