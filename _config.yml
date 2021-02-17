@@ -19,7 +19,7 @@ highlighter: rouge
 
 header_pages:
   - index.md
-  - read-me.md
+  - ctf.md
   - preview.md
   - contact-me.md
   
