@@ -42,9 +42,9 @@ Dumping the memory for `mstsc.exe`:
 ./vol.py -f ~/Downloads/pub/challenge.vmem --profile Win10x64_18362 memdump -p 6484 --dump-dir dumpdir
 ```
 We rename 6484.dmp to 6484.data, so that GIMP can process it, and opening it as raw data in GIMP.
-<img src="assets/remote-password-manager-4.png" alt="hi" class="inline"/>
+<img src="assets/1.png" alt="hi" class="inline"/>
 Adjusting the offset values, we get the flag:
-<img src="assets/remote-password-manager-7.png" alt="hi" class="inline"/>
+<img src="assets/falg.png" alt="hi" class="inline"/>
 
 
 **flag:justCTF{7h3r3_15_n0_5uch_7h1n6_45_unh4ck4b13}**
