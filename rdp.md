@@ -2,7 +2,7 @@
 layout: page
 permalink: /rdp
 permalink_name: /rdp
-title: justCTF\[*\]: rdp
+title: justCTF\[*\] rdp
 ---
 
 # Remote Password Manager \[fore, 347 points, 12 solves\]
