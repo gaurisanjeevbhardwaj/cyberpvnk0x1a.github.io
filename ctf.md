@@ -2,7 +2,7 @@
 layout: page
 permalink: /ctf
 permalink_name: /ctf
-title: ctf
+title: /ctf
 ---
 
 
