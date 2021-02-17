@@ -3,7 +3,6 @@ layout: page
 permalink: /ctf
 permalink_name: /ctf
 title: ctf
-
 ---
 # CTF writeups and experiences
 ### justCTF\[*\]2020
